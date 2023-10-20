@@ -1,5 +1,6 @@
 #ifndef MONTY_H
 #define MONTY_H
+#define BUFSIZE 10240
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -63,5 +64,5 @@ void fswap(stack_t **head, unsigned int counter);
 void fadd(stack_t **head, unsigned int counter);
 void fnop(stack_t **head, unsigned int counter);
 int execute(char *content, stack_t **stack, unsigned int counter, FILE *file);
-
+char *_getline();
 #endif
