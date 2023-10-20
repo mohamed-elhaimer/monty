@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
-  *f_nop- nothing
+  *fnop- nothing
   *@head: stack head
   *@counter: line_number
   *Return: Nothing
