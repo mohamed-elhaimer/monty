@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 	while (read_line > 0)
 	{
 		content = NULL;
-		read_line = _getline(&content, &size, file);
+		read_line = getline(&content, &size, file);
 		bs.content = content;
 		counter++;
 		if (read_line > 0)
