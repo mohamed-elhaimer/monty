@@ -1,6 +1,6 @@
 #include "monty.h"
 /**
- * f_queue - prints the top
+ * fqueue - prints the top
  * @head: stack head
  * @counter: line_number
  * Return: Nothing

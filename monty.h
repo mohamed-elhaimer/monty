@@ -57,5 +57,9 @@ void addnode(stack_t **head, int n);
 void fqueue(stack_t **head, unsigned int counter);
 void addqueue(stack_t **head, int n);
 void fpall(stack_t **head, unsigned int counter);
-
+void fpint(stack_t **head, unsigned int counter);
+void fpop(stack_t **head, unsigned int counter);
+void fswap(stack_t **head, unsigned int counter);
+void fadd(stack_t **head, unsigned int counter);
+void fnop(stack_t **head, unsigned int counter);
 #endif
