@@ -62,4 +62,6 @@ void fpop(stack_t **head, unsigned int counter);
 void fswap(stack_t **head, unsigned int counter);
 void fadd(stack_t **head, unsigned int counter);
 void fnop(stack_t **head, unsigned int counter);
+int execute(char *content, stack_t **stack, unsigned int counter, FILE *file);
+
 #endif
